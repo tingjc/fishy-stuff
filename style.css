@@ -1,0 +1,65 @@
+body {
+    background-color: slategray;
+}
+/* HEADER STYLES */
+header {
+    /* background */
+    background-image: url("./assets/salmon-unsplash-gregor-moser.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* padding and margin */
+    padding: 5%;
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+/* MAIN STYLES */
+    main {
+        /* Background */
+        background-color: #C6C6C6;
+
+        /* padding and margin*/
+        padding: 20px;
+
+        /* Flexbox */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+
+    section {
+        /* background */
+        background-color: #D2ADAD;
+        
+        /* padding and margin */
+        padding: 10px;
+        margin: 5% 0;
+
+        /* border */
+        border: 5px solid black;
+
+        /* dimensions */
+        width: 40%;
+        min-width: 300px;
+
+    }
+
+    .text-container {
+        background-color:#b79db5a3;
+        border-radius: 20px;
+        padding: 15px;
+    }
+/* FOOTER STYLES */
+footer {
+    background-color: black;
+    color:azure;
+    text-align: center;
+}
