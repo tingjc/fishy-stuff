@@ -1,5 +1,5 @@
 body {
-    background-color: slategray;
+    background-color: deeppink;
 }
 /* HEADER STYLES */
 header {
@@ -11,13 +11,14 @@ header {
 
     /* padding and margin */
     padding: 5%;
+    margin: 25vh 0;
 
 
 }
 
 h1 {
-    color: white;
-    font-size: 60px;
+    color: red;
+    font-size: 160px;
     text-shadow: 5px 5px 2px black;
 }
 /* MAIN STYLES */
@@ -54,7 +55,7 @@ h1 {
     }
 
     .text-container {
-        background-color:#b79db5a3;
+        background-color:mediumvioletred;
         border-radius: 20px;
         padding: 15px;
     }
